@@ -9,6 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-Download form 
-====
-[here]("files/Dongliang_CV.pdf")
+Download form [here]("files/Dongliang_CV.pdf")
