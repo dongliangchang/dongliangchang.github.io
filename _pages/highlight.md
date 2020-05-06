@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: "Highlight"
 permalink: /highlight/
 author_profile: true
 ---
