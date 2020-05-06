@@ -9,4 +9,4 @@ redirect_from:
 
 <!-- {% include base_path %} -->
 
-Download form [here]("https://www.dongliangchang.cn/files/Dongliang_CV.pdf")
+Download form https://www.dongliangchang.cn/files/Dongliang_CV.pdf
