@@ -11,10 +11,22 @@ redirect_from:
 
 Education
 ======
-* B.E. in Network engineering, Zhoukou Normal University (ZKNU), Advisor: Prof. Qi Wang, 2012.09 ~ 2016.06
-* M.E. in IoT Engineering, Lanzhou University of Technology (LUT), Advisor: Prof. Xiaoxu Li, 2016.09-2019.06
-* Visiting Student, Beijing University of Posts and Telecommunications (BUPT), Advisor: Prof. Zhanyu Ma, 2017.04-2019.09
-* Ph.D. candidate of PRIS lab, BUPT, Advisor: Prof. Zhanyu Ma, From 2019.09
+* B.E. in Network engineering
+    + Zhoukou Normal University (ZKNU)
+    + Advisor: Prof. Qi Wang
+    + 2012.09 ~ 2016.06
+* M.E. in IoT Engineering
+    + Lanzhou University of Technology (LUT)  
+    + Advisor: Prof. Xiaoxu Li
+    + 2016.09-2019.06
+* Visiting Student
+    + Beijing University of Posts and Telecommunications (BUPT)   
+    + Advisor: Prof. Zhanyu Ma
+    + 2017.04-2019.09
+* Ph.D. candidate of PRIS lab
+    + BUPT
+    + Advisor: Prof. Zhanyu Ma
+    + From 2019.09
 
 
 
@@ -58,8 +70,8 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
    -->
-Professional Services
-======
+
+#Professional Services
 Reviewer: 
 * IEEE Transactions on Vehicular Technology 2019, 2020
 * NEUROCOMPUTING 2020
