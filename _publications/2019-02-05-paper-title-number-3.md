@@ -1,7 +1,7 @@
 ---
 title: "Large-margin Regularized Softmax Cross-Entropy Loss"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-3
+permalink: /publication/2019-02-05-paper-title-number-3
 excerpt: ''
 date: 2019-2-5
 venue: 'February 05 '

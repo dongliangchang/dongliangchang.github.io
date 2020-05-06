@@ -1,7 +1,7 @@
 ---
 title: "The Devil is in the Channels: Mutual-Channel Loss for Fine-Grained Image Classification"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-2
+permalink: /publication/2020-02-20-paper-title-number-2
 excerpt: ''
 date: 2020-2-20
 venue: 'February 20'

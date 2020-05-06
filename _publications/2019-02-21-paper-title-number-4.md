@@ -1,7 +1,7 @@
 ---
 title: "Fine-Grained Vehicle Classification with Channel Max Pooling Modified CNNs"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-4
+permalink: /publication/2019-02-21-paper-title-number-4
 excerpt: ''
 date: 2019-2-21
 venue: 'February 21 '
