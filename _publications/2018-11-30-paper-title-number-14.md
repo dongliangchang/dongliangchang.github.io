@@ -1,7 +1,7 @@
 ---
 title: "Softmax Cross Entropy Loss with Unbiased Decision Boundary for Image Classification"
 collection: publications
-permalink: /publication/2018-11-23-paper-title-number-14
+permalink: /publication/2018-11-30-paper-title-number-14
 excerpt: ''
 date: 2018-11-30
 venue: 'November 30'
