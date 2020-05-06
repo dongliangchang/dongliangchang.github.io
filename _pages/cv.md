@@ -7,6 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<!-- {% include base_path %} -->
 
 Download form [here]("https://www.dongliangchang.cn/files/Dongliang_CV.pdf")
