@@ -9,7 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Download form [here]("files/Dongliang_CV.pdf")
+<!-- Education
 ======
 * B.E. in Network engineering
     + Zhoukou Normal University (ZKNU)
@@ -26,7 +27,7 @@ Education
 * Ph.D. candidate of PRIS lab
     + BUPT
     + Advisor: Prof. Zhanyu Ma
-    + From 2019.09
+    + From 2019.09 -->
 
 
 
@@ -52,11 +53,11 @@ Education
   * Sub-skill 2.3
 * Skill 3 -->
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 <!-- Talks
 ======
@@ -71,7 +72,7 @@ Teaching
   {% endfor %}</ul>
    -->
 
-Professional Services
+<!-- Professional Services
 ======
 
 Reviewer: 
@@ -79,3 +80,4 @@ Reviewer:
 * NEUROCOMPUTING 2020
 * ICPR 2020
 
+ -->
