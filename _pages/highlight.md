@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Highlights"
-permalink: /highlight/
+permalink: /highlights/
 author_profile: true
 ---
 
@@ -11,6 +11,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.highlight reversed %}
+{% for post in site.highlights reversed %}
   {% include archive-single-highlight.html %}
 {% endfor %}

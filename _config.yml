@@ -181,7 +181,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  highlight:
+  highlights:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -230,10 +230,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _highlight
+  # _highlights
   - scope:
       path: ""
-      type: highlight
+      type: highlights
     values:
       layout: single
       author_profile: true
