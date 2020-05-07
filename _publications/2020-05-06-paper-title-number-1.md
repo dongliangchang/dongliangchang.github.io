@@ -1,10 +1,10 @@
 ---
 title: "OSLNet: Deep Small-Sample Classification with an Orthogonal Softmax Layer"
 collection: publications
-permalink: /publication/2020-05-07-paper-title-number-1
+permalink: /publication/2020-05-06-paper-title-number-1
 excerpt: ''
-date: 2020-05-07
-venue: 'May 07'
+date: 2020-05-06
+venue: 'May 06'
 paperurl: ''
 citation: 'Li X, Chang D, Ma Z, et al. OSLNet: Deep Small-Sample Classification with an Orthogonal Softmax Layer[J]. arXiv preprint arXiv:2004.09033, 2020.'
 ---
