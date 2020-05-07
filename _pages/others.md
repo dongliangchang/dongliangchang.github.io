@@ -7,7 +7,7 @@ author_profile: true
 
 <!-- {% include base_path %} -->
 
-Research Project
+Research Projects
 ====
 基于域适应的细粒度图像分类方法研究，主持，北京邮电大学博士生创新基金 (BUPT Excellent Ph.D. Students Foundation)，项目批准号：XX, 2020.1-2022.12. [8/100]
 
