@@ -23,7 +23,7 @@ International Conference
   {% include archive-single.html %}
 {% endfor %}
 
-Arxiv
+Arxiv2
 ====
 {% for post in site.publications_Arxiv reversed %}
   {% include archive-single.html %}
