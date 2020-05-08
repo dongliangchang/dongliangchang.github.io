@@ -1,7 +1,7 @@
 ---
 title: "Mixed Attention Mechanism for Small-Sample Fine-grained Image Classification"
 collection: publications
-permalink: /publication/2019-11-18-paper-title-number-11
+permalink: /publication/2019-11-18-paper-title-number-5
 excerpt: ''
 date: 2019-11-18
 venue: 'November 18'

@@ -1,7 +1,7 @@
 ---
 title: "Channel Max Pooling for Image Classification"
 collection: publications
-permalink: /publication/2019-10-17-paper-title-number-9
+permalink: /publication/2019-10-17-paper-title-number-3
 excerpt: ''
 date: 2019-10-17	
 venue: 'October 17'

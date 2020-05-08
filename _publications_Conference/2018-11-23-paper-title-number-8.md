@@ -1,7 +1,7 @@
 ---
 title: "SSE: A new selective initialization strategy for Snapshot Ensembling"
 collection: publications
-permalink: /publication/2018-11-23-paper-title-number-13
+permalink: /publication/2018-11-23-paper-title-number-8
 excerpt: ''
 date: 2018-11-23
 venue: 'November 23'

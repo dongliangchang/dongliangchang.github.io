@@ -1,7 +1,7 @@
 ---
 title: "Dynamic Attention Loss for Small-sample Image Classification"
 collection: publications
-permalink: /publication/2019-11-18-paper-title-number-10
+permalink: /publication/2019-11-18-paper-title-number-4
 excerpt: ''
 date: 2019-11-18
 venue: 'November 18'

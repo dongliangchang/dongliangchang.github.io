@@ -1,7 +1,7 @@
 ---
 title: "Small-Sample Image Classification Method of Combining Prototype and Margin Learning"
 collection: publications
-permalink: /publication/2019-11-18-paper-title-number-12
+permalink: /publication/2019-11-18-paper-title-number-6
 excerpt: ''
 date: 2019-11-18
 venue: 'November 18'

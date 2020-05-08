@@ -21,12 +21,12 @@ International Journal
 
 International Conference
 ====
-{% for post in site.publications reversed %}
+{% for post in site.publications_Conference reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
 
-Arxiv6
+Arxiv
 ====
 {% for post in site.publications_Arxiv reversed %}
   {% include archive-single.html %}
