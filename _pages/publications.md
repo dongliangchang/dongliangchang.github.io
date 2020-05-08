@@ -13,18 +13,18 @@ author_profile: true
 
 International Journal
 ====
-{% for post in site.publications reversed %}
-  {% include archive-single_Journal.html %}
+{% for post in site.publications_Journal reversed %}
+  {% include archive-single.html %}
 {% endfor %}
 
 International Conference
 ====
-{% for post in site.publications reversed %}
-  {% include archive-single_Conference.html %}
+{% for post in site.publications_Conference reversed %}
+  {% include archive-single.html %}
 {% endfor %}
 
 Arxiv
 ====
-{% for post in site.publications reversed %}
-  {% include archive-single_Arxiv.html %}
+{% for post in site.publications_Arxiv reversed %}
+  {% include archive-single.html %}
 {% endfor %}
