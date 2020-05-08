@@ -1,5 +1,5 @@
 ---
-title: "Large-margin Regularized Softmax Cross-Entropy Loss"
+title: "[3] Large-margin Regularized Softmax Cross-Entropy Loss"
 collection: publications
 permalink: /publication/2019-02-05-paper-title-number-3
 excerpt: ''

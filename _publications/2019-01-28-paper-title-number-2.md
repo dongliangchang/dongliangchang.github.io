@@ -1,7 +1,7 @@
 ---
-title: "Dual Cross-Entropy Loss for Small-Sample Fine-Grained Vehicle Classification"
+title: "[2] Dual Cross-Entropy Loss for Small-Sample Fine-Grained Vehicle Classification"
 collection: publications
-permalink: /publication/2019-01-28-paper-title-number-5
+permalink: /publication/2019-01-28-paper-title-number-2
 excerpt: ''
 date: 2019-1-28
 venue: 'January 28'

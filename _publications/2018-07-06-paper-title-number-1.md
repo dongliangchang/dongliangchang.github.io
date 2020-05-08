@@ -1,7 +1,7 @@
 ---
-title: "Prediction of short-term PV power output and uncertainty analysis"
+title: "[1] Prediction of short-term PV power output and uncertainty analysis"
 collection: publications
-permalink: /publication/2018-07-06-paper-title-number-6
+permalink: /publication/2018-07-06-paper-title-number-1
 excerpt: ''
 date: 2018-07-06
 venue: 'July 06'

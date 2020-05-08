@@ -1,5 +1,5 @@
 ---
-title: "Fine-Grained Vehicle Classification with Channel Max Pooling Modified CNNs"
+title: "[4] Fine-Grained Vehicle Classification with Channel Max Pooling Modified CNNs"
 collection: publications
 permalink: /publication/2019-02-21-paper-title-number-4
 excerpt: ''
