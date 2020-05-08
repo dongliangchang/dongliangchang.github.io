@@ -6,7 +6,7 @@ excerpt: ''
 date: 2020-2-20
 venue: 'February 20'
 paperurl: ''
-citation: '***Chang D***, Ding Y, Xie J, et al. The devil is in the channels: Mutual-channel loss for fine-grained image classification[J]. IEEE Transactions on Image Processing, 2020, 29: 4683-4695.'
+citation: '<b>Chang D</b>>, Ding Y, Xie J, et al. The devil is in the channels: Mutual-channel loss for fine-grained image classification[J]. IEEE Transactions on Image Processing, 2020, 29: 4683-4695.'
 ---
 
 <center><img src="https://www.dongliangchang.cn/files/MC_Loss.jpg" class="img-responsive img-rounded" alt="MC_Loss" width="400"></center>
