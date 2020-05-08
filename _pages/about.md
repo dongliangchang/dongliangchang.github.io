@@ -13,7 +13,7 @@ redirect_from:
  -->
 I am a first year PhD student, at Pattern Recognition & Intelligent System Laboratory (PRIS) of the University of Beijing University of Posts and Telecommunications (BUPT). My primary research interests are Fine-Grained Image Analysis (FGIA) and Domain adaptation (DA). In particular, I an interested in developing algorithms that can understand what people see and contribute to a better life. <br>     
 I am advised by [Prof. Zhanyu Ma](http://www.pris.net.cn/introduction/teacher/zhanyu_ma) and
-[Prof. Yi-Zhe Song](https://www.surrey.ac.uk/people/yi-zhe-song). <br>
+[Prof. Yi-Zhe Song](http://personal.ee.surrey.ac.uk/Personal/Y.Song/). <br>
 
 <b>Keywords</b>: Fine-Grained Image Analysis, Domain Adaptation, Transfer Learning, Open Set
 
