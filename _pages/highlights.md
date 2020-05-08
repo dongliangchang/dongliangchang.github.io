@@ -12,5 +12,5 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.highlights reversed %}
-  {% include archive-single-highlight.html %}
+  {% include archive-single-highlights.html %}
 {% endfor %}
