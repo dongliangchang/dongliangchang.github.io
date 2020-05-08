@@ -18,6 +18,8 @@ International Journal
 {% endfor %}
 
 permalink: /publications_Conference/
+{% include base_path %}
+
 International Conference
 ====
 {% for post in site.publications_Conference reversed %}
@@ -25,7 +27,9 @@ International Conference
 {% endfor %}
 
 permalink: /publications_Arxiv/
-Arxiv3
+{% include base_path %}
+
+Arxiv4
 ====
 {% for post in site.publications_Arxiv reversed %}
   {% include archive-single.html %}
