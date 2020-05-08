@@ -1,7 +1,7 @@
 ---
-title: "FICAL: Focal Inter-Class Angular Loss for Image Classification"
+title: "[7] FICAL: Focal Inter-Class Angular Loss for Image Classification"
 collection: publications
-permalink: /publication/2019-12-01-paper-title-number-2
+permalink: /publication/2019-12-01-paper-title-number-7
 excerpt: ''
 date: 2019-12-01
 venue: 'December 01'

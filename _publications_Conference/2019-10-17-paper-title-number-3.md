@@ -1,5 +1,5 @@
 ---
-title: "Channel Max Pooling for Image Classification"
+title: "[3] Channel Max Pooling for Image Classification"
 collection: publications
 permalink: /publication/2019-10-17-paper-title-number-3
 excerpt: ''

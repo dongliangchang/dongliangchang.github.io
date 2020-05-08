@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Attention Loss for Small-sample Image Classification"
+title: "[4] Dynamic Attention Loss for Small-sample Image Classification"
 collection: publications
 permalink: /publication/2019-11-18-paper-title-number-4
 excerpt: ''
