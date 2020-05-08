@@ -28,7 +28,7 @@ International Conference
 Arxiv
 ====
 
-[Find more arxiv paper here.](https://arxiv.org/a/chang_d_1.html/)
+[Find more arxiv papers here.](https://arxiv.org/a/chang_d_1.html/)
 
 <!-- Arxiv
 ====
