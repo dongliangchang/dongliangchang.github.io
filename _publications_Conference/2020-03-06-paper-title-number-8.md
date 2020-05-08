@@ -1,7 +1,7 @@
 ---
 title: "[8] IU-Module: Intersection and Union Module for Fine-Grained Visual Classification"
 collection: publications
-permalink: /publication/2020-03-06-paper-title-number-8
+permalink: /publication_Conference/2020-03-06-paper-title-number-8
 excerpt: ''
 date: 2020-03-06	
 venue: 'March 06'
