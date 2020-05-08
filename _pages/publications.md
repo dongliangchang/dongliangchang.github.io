@@ -17,13 +17,15 @@ International Journal
   {% include archive-single.html %}
 {% endfor %}
 
+permalink: /publications_Conference/
 International Conference
 ====
 {% for post in site.publications_Conference reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
-Arxiv2
+permalink: /publications_Arxiv/
+Arxiv3
 ====
 {% for post in site.publications_Arxiv reversed %}
   {% include archive-single.html %}
