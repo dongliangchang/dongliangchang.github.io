@@ -16,3 +16,15 @@ International Journal
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+International Conference
+====
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+Arxiv
+====
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
