@@ -23,6 +23,9 @@ main:
   - title: "Dataset"
     url: /dataset/
 
+  - title: "News"
+    url: /news/
+
   - title: "Others"
     url: /others/
 
