@@ -12,7 +12,7 @@ redirect_from:
 <!-- I am a first year PhD student, at Pattern Recognition & Intelligent System Laboratory (PRIS) of the University of Beijing University of Posts and Telecommunications (BUPT). My primary research interests are Fine-Grained Image Analysis (FGIA) and Domain adaptation (DA).  -->
 
 <p style="text-align:justify; text-justify:inter-ideograph;">
-I am a first year PhD student, at Pattern Recognition and Intelligent System Laboratory ([PRIS](http://www.pris.net.cn/)) of the University of Beijing University of Posts and Telecommunications (BUPT). My supervisors is Prof. Zhanyu Ma. Prior to that, I worked as a visiting Student at the PRIS, under the supervision of Prof. Zhanyu Ma. I completed my M.E. degree from Lanzhou University of Technology (LUT), majoring in Internet of things engineering, under the supervision of Prof. Xiao-Xu Li. My primary research interests are Fine-Grained Image Analysis (FGIA) and Domain adaptation (DA). 
+I am a first year PhD student, at Pattern Recognition and Intelligent System Laboratory (PRIS) of the University of Beijing University of Posts and Telecommunications (BUPT). My supervisors is Prof. Zhanyu Ma. Prior to that, I worked as a visiting Student at the PRIS, under the supervision of Prof. Zhanyu Ma. I completed my M.E. degree from Lanzhou University of Technology (LUT), majoring in Internet of things engineering, under the supervision of Prof. Xiao-Xu Li. My primary research interests are Fine-Grained Image Analysis (FGIA) and Domain adaptation (DA). 
 </p>
 
 
