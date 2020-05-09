@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Highlights"
+title: ""
 permalink: /highlights/
 author_profile: true
 ---
