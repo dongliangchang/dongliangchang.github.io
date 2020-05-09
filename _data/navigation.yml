@@ -17,15 +17,15 @@ main:
         
   # - title: "Blog Posts"
   #   url: /year-archive/
-    
+  
+  - title: "News"
+    url: /news/    
+
   - title: "CV"
     url: /cv/
 
   - title: "Dataset"
     url: /dataset/
-
-  - title: "News"
-    url: /news/
 
   - title: "Others"
     url: /others/
