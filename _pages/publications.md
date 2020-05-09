@@ -30,6 +30,8 @@ Arxiv
 
 [Find more arxiv papers here.](https://arxiv.org/a/chang_d_1.html/)
 
+<i>\* denotes corresponding author.</i>
+
 <!-- Arxiv
 ====
 {% for post in site.publications_Arxiv reversed %}
