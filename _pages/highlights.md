@@ -11,7 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
-International Journal
+Journal Articles
 ====
 {% for post in site.highlights reversed %}
   {% include archive-single-highlights.html %}

@@ -11,7 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
-International Journal
+Journal Articles
 ====
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
@@ -19,13 +19,13 @@ International Journal
 
 
 
-International Conference
+Conference Proceedings
 ====
 {% for post in site.publications_Conference reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
-Arxiv
+Preprints
 ====
 
 [Find more arxiv papers here.](https://arxiv.org/a/chang_d_1.html/)
