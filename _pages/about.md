@@ -21,7 +21,6 @@ I am advised by [Prof. Zhanyu Ma](http://www.pris.net.cn/introduction/teacher/zh
 
 News 
 ------
-+ May, 2020, One paper is accepted at [NCIG 2020!]("http://ncig2020.csig.org.cn/")
 + April, 2020, One paper is accepted at [TIP 2020!](https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing)
 + March, 2020, Released my paper "Mind the Gap: Enlarging the Domain Gap in Open Set Domain Adaptation " on ArXiv! [Paper](https://arxiv.org/pdf/2003.03787) [Code](https://github.com/dongliangchang/Mutual-to-Separate/)
 + March, 2020, One paper is accepted at [ICME 2020!]("")
