@@ -16,5 +16,5 @@ Abstract: The key to solving fine-grained image categorization is finding discri
 </p>
 
 [Download paper here](https://ieeexplore.ieee.org/document/9005389/)
-[Download code here](https://github.com/dongliangchang/Mutual-Channel-Loss/)
+[Download code here](https://github.com/dongliangchang/Mutual-Channel-Loss/) <img src="https://img.shields.io/github/stars/PRIS-CV/Mutual-Channel-Loss" class="img-responsive img-rounded" >
 
