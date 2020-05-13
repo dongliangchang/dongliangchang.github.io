@@ -5,7 +5,7 @@ permalink: /highlights/2020-05-06-paper-title-number-2
 excerpt: ''
 date: 2020-05-06
 venue: 'May 06'
-paperurl: ''
+paperurl: '<img src="https://img.shields.io/github/stars/PRIS-CV/OSLNet" class="img-responsive img-rounded">'
 citation: 'Xiaoxu Li, <b><u><i>Dongliang Chang</i></u></b>, Zhanyu Ma\*, Zheng-Hua Tan, Jing-Hao Xue, Jie Cao, Jingyi Yu, and Jun Guo. OSLNet: Deep Small-Sample Classification with an Orthogonal Softmax Layer[J]. <b><u><i>IEEE Transactions on Image Processing</i></u></b>, 2020.'
 ---
 
