@@ -17,7 +17,7 @@ I am a first year PhD student, at Pattern Recognition and Intelligent System Lab
 
 I am advised by [Prof. Zhanyu Ma](http://www.pris.net.cn/introduction/teacher/zhanyu_ma) and
 [Prof. Yi-Zhe Song](http://personal.ee.surrey.ac.uk/Personal/Y.Song/). <br>
-<b>Keywords</b>: Fine-Grained Image Analysis, Transfer Learning, Open Set
+<b>Keywords</b>: Computer Vision, Fine-Grained, Deep Learning
 
 News 
 ------
