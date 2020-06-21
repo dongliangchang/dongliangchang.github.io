@@ -1,10 +1,10 @@
 ---
 title: "[8] IU-Module: Intersection and Union Module for Fine-Grained Visual Classification"
 collection: publications
-permalink: /publication/2020-03-06-paper-title-number-8
+permalink: /publication/2020-07-06-paper-title-number-8
 excerpt: ''
-date: 2020-03-06	
-venue: 'March 06'
+date: 2020-07-06	
+venue: 'July 06'
 paperurl: ''
 citation: 'Yixiao Zheng, <b><u><i>Dongliang Chang</i></u></b>, Jiyang Xie, and Zhanyu Ma\*. IU-Module: Intersection and Union Module for Fine-Grained Visual Classification[c]. IEEE International Conference on Multimedia and Expo (ICME), 2020.'
 ---
