@@ -1,5 +1,5 @@
 ---
-title: "[7] Deep InterBoost Networks for Small-sample Image Classification"
+title: "[7] Deep InterBoost Networks for Small-sample Image Classification, bupt"
 collection: publications
 permalink: /publication/2020-06-30-paper-title-number-7
 excerpt: ''
@@ -16,6 +16,7 @@ Abstract: Deep neural networks have recently shown excellent performance on nume
 </p>
 
 [Download paper here](https://)<br/>
-[Download code here](https://)
+[Download code here](https://github.com/dongliangchang/InterBoost)<img src="https://img.shields.io/github/stars/dongliangchang/InterBoost" class="img-responsive img-rounded" >
+
 
 

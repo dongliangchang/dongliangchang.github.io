@@ -1,5 +1,5 @@
 ---
-title: "[9] Dual-attention Guided Dropblock Module for Weakly Supervised Object Localization, Y"
+title: "[9] Dual-attention Guided Dropblock Module for Weakly Supervised Object Localization, bupt"
 collection: publications
 permalink: /publication/2021-01-10-paper-title-number-9
 excerpt: ''
