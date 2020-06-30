@@ -8,7 +8,7 @@ venue: 'June 30'
 paperurl: ''
 citation: 'Xiaoxu Li, <b><u><i>Dongliang Chang</i></u></b>, Zhanyu Ma\*, Zheng-Hua Tan, Jing-Hao Xue, Jie Cao, and Jun Guo. OSLNet: Deep Small-Sample Classification with an Orthogonal Softmax Layer[J]. <b><u><i>IEEE Transactions on Image Processing</i></u></b>, 2020.'
 ---
-<!-- <center><img src="https://www.dongliangchang.cn/files/OSLNet.jpg" class="img-responsive img-rounded" alt="OSLNet" width="800"></center> -->
+<center><img src="https://www.dongliangchang.cn/files/Interboost.jpg" class="img-responsive img-rounded" alt="Interboost" width="800"></center>
 
 
 <p style="text-align:justify; text-justify:inter-ideograph;">
@@ -16,6 +16,6 @@ Abstract: Deep neural networks have recently shown excellent performance on nume
 </p>
 
 [Download paper here](https://)<br/>
-[Download code here](https://) <img src="https://img.shields.io/github/stars/PRIS-CV/OSLNet" class="img-responsive img-rounded" >
+[Download code here](https://)
 
 
