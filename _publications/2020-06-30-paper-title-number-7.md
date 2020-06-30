@@ -6,7 +6,7 @@ excerpt: ''
 date: 2020-06-30
 venue: 'June 30'
 paperurl: ''
-citation: 'Xiaoxu Li, <b><u><i>Dongliang Chang</i></u></b>, Zhanyu Ma\*, Zheng-Hua Tan, Jing-Hao Xue, Jie Cao, and Jun Guo. OSLNet: Deep Small-Sample Classification with an Orthogonal Softmax Layer[J]. <b><u><i>IEEE Transactions on Image Processing</i></u></b>, 2020.'
+citation: 'Xiaoxu Li, <b><u><i>Dongliang Chang</i></u></b>, Zhanyu Ma\*, Zheng-Hua Tan, Jing-Hao Xue, Jie Cao, and Jun Guo. Deep InterBoost Networks for Small-sample Image Classification[J]. <b><u><i>NEUROCOMPUTING</i></u></b>, 2020.'
 ---
 <center><img src="https://www.dongliangchang.cn/files/Interboost.jpg" class="img-responsive img-rounded" alt="Interboost" width="800"></center>
 
