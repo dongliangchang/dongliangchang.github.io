@@ -21,6 +21,7 @@ I am advised by [Prof. Zhanyu Ma](http://www.pris.net.cn/introduction/teacher/zh
 
 News 
 ------
++ July, 2020, One paper  accepted by [ECCV 2020!](http://eccv2020.eu)
 + June, 2020, One paper  accepted by [NEUROCOMPUTING!](https://www.journals.elsevier.com/neurocomputing)
 + June, 2020, One paper  accepted by [ICPR 2020!](https://www.icpr2020.it)
 + April, 2020, One paper accepted by [IEEE Transactions on Image Processing!](https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing)
