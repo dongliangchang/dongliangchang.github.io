@@ -13,7 +13,7 @@ Research Projects
 
 Honors
 ====
-2020 年中国留学基金委奖学金 CSC NO. 202006470036 (Scholarship from China Scholarship Council (CSC), No. 202006470036)<br>
+2020 年中国留学基金委奖学金 CSC NO. 202006470036 (Scholarship from China Scholarship Council (CSC))<br>
 2019 年首届北京邮电大学优秀博士生后备计划一等奖学金 [32/342 ≈ 9%]
 
 
