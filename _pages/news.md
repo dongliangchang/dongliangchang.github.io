@@ -10,10 +10,10 @@ author_profile: true
 
 2020 
 ===
-+ October, 2020, One paper  accepted by [ICPR 2020!](https://www.icpr2020.it)
++ October, 2020, One paper  accepted by [ICPR 2020 Second Round!](https://www.icpr2020.it)
 + July, 2020, One paper  accepted by [ECCV 2020!](http://eccv2020.eu)
 + June, 2020, One paper  accepted by [NEUROCOMPUTING!](https://www.journals.elsevier.com/neurocomputing)
-+ June, 2020, One paper  accepted by [ICPR 2020!](https://www.icpr2020.it)
++ June, 2020, One paper  accepted by [ICPR 2020 First Round!](https://www.icpr2020.it)
 + April, 2020, One paper accepted by [IEEE Transactions on Image Processing!](https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing)
 + March, 2020, Released my paper "Mind the Gap: Enlarging the Domain Gap in Open Set Domain Adaptation " on ArXiv! [Paper](https://arxiv.org/pdf/2003.03787) [Code](https://github.com/dongliangchang/Mutual-to-Separate/)
 + March, 2020, One paper  accepted by [ICME 2020!](http://www.2020.ieeeicme.org)
