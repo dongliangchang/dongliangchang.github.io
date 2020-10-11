@@ -10,6 +10,7 @@ author_profile: true
 
 2020 
 ===
++ November, 2020, One paper  accepted by [ICPR 2020!](https://www.icpr2020.it)
 + July, 2020, One paper  accepted by [ECCV 2020!](http://eccv2020.eu)
 + June, 2020, One paper  accepted by [NEUROCOMPUTING!](https://www.journals.elsevier.com/neurocomputing)
 + June, 2020, One paper  accepted by [ICPR 2020!](https://www.icpr2020.it)
