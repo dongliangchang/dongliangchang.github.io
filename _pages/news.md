@@ -10,6 +10,7 @@ author_profile: true
 
 2020 
 ===
++ October, 2020, 获评北京自动化学会2020年优秀博士研究生！
 + October, 2020, One paper  accepted by [ICPR 2020 Second Round!](https://www.icpr2020.it)
 + August, 2020, One paper  accepted by [信号处理!](http://www.signal.org.cn/CN/volumn/current.shtml)
 + August, 2020, One paper  accepted by [图学学报!](http://www.txxb.com.cn/CN/volumn/home.shtml)
@@ -26,8 +27,8 @@ author_profile: true
 2019
 ===
 
-+ December, 2019, 获得2019 年首届北京邮电大学优秀博士生后备计划一等奖学金
-+ November, 2019, 授权一项发明专利：“一种基于通道损失函数的细粒度图像识别方法”
++ December, 2019, 获得2019 年首届北京邮电大学优秀博士生后备计划一等奖学金!
++ November, 2019, 授权一项发明专利!
 
 
 
