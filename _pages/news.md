@@ -15,6 +15,7 @@ author_profile: true
 + August, 2020, One paper  accepted by [信号处理!](http://www.signal.org.cn/CN/volumn/current.shtml)
 + August, 2020, One paper  accepted by [图学学报!](http://www.txxb.com.cn/CN/volumn/home.shtml)
 + August, 2020, Obtained Scholarship from China Scholarship Council (CSC)
++ June, 2020, 授权一项发明专利!
 + July, 2020, One paper  accepted by [ECCV 2020!](http://eccv2020.eu)
 + June, 2020, One paper  accepted by [NEUROCOMPUTING!](https://www.journals.elsevier.com/neurocomputing)
 + June, 2020, One paper  accepted by [ICPR 2020 First Round!](https://www.icpr2020.it)
@@ -26,9 +27,8 @@ author_profile: true
 
 2019
 ===
-
 + December, 2019, 获得2019 年首届北京邮电大学优秀博士生后备计划一等奖学金!
-+ November, 2019, 授权一项发明专利!
+
 
 
 
