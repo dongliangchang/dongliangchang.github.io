@@ -11,9 +11,11 @@ author_profile: true
 2020 
 ===
 + October, 2020, One paper  accepted by [ICPR 2020 Second Round!](https://www.icpr2020.it)
++ August, 2020, 获得2020年中国留学基金委奖学金 (Scholarship from China Scholarship Council)
 + July, 2020, One paper  accepted by [ECCV 2020!](http://eccv2020.eu)
 + June, 2020, One paper  accepted by [NEUROCOMPUTING!](https://www.journals.elsevier.com/neurocomputing)
 + June, 2020, One paper  accepted by [ICPR 2020 First Round!](https://www.icpr2020.it)
++ May, 2020, 获得一项北京邮电大学博士生创新基金资助项目：基于域适应的细粒度图像分类方法研究。
 + April, 2020, One paper accepted by [IEEE Transactions on Image Processing!](https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing)
 + March, 2020, Released my paper "Mind the Gap: Enlarging the Domain Gap in Open Set Domain Adaptation " on ArXiv! [Paper](https://arxiv.org/pdf/2003.03787) [Code](https://github.com/dongliangchang/Mutual-to-Separate/)
 + March, 2020, One paper  accepted by [ICME 2020!](http://www.2020.ieeeicme.org)
@@ -21,3 +23,12 @@ author_profile: true
 
 2019
 ===
+
++ December, 2019, 获得2019 年首届北京邮电大学优秀博士生后备计划一等奖学金
++ November, 2019, 授权一项发明专利：“一种基于通道损失函数的细粒度图像识别方法”
+
+
+
+
+
+
