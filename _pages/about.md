@@ -22,8 +22,8 @@ I am advised by [Prof. Zhanyu Ma](http://www.pris.net.cn/introduction/teacher/zh
 News 
 ------
 + October, 2020, One paper  accepted by [ICPR 2020 Second Round!](https://www.icpr2020.it)
-+ August, 2020, One paper  accepted by [信号处理](http://www.signal.org.cn/CN/volumn/current.shtml)
-+ August, 2020, One paper  accepted by [图学学报](http://www.txxb.com.cn/CN/volumn/home.shtml)
++ August, 2020, One paper  accepted by [信号处理!](http://www.signal.org.cn/CN/volumn/current.shtml)
++ August, 2020, One paper  accepted by [图学学报!](http://www.txxb.com.cn/CN/volumn/home.shtml)
 + August, 2020, Obtained Scholarship from China Scholarship Council (CSC)
 + July, 2020, One paper  accepted by [ECCV 2020!](http://eccv2020.eu)
 + June, 2020, One paper  accepted by [NEUROCOMPUTING!](https://www.journals.elsevier.com/neurocomputing)
