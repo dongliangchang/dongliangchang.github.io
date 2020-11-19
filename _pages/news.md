@@ -10,6 +10,7 @@ author_profile: true
 
 2020 
 ===
++ November, 2020, Released my paper "Your "Labrador" is My "Dog": Fine-Grained, or Not" on ArXiv! [Paper](http://arxiv.org/abs/2011.09040) [Code](https://github.com/dongliangchang/)
 + October, 2020, 获评北京自动化学会优秀博士研究生！
 + October, 2020, One paper  accepted by [ICPR 2020 Second Round!](https://www.icpr2020.it)
 + August, 2020, One paper  accepted by [信号处理!](http://www.signal.org.cn/CN/volumn/current.shtml)
@@ -28,7 +29,6 @@ author_profile: true
 2019
 ===
 + December, 2019, 获得2019 年首届北京邮电大学优秀博士生后备计划一等奖学金!
-
 
 
 
