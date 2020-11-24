@@ -13,8 +13,9 @@ Research Projects
 
 Honors
 ====
+2020 年北京自动化学会优秀博士研究生  (Excellent PhD student of Beijing Association of Automation)<br>
 2020 年中国留学基金委奖学金 CSC NO. 202006470036 (Scholarship from China Scholarship Council (CSC))<br>
-2019 年首届北京邮电大学优秀博士生后备计划一等奖学金 [32/342 ≈ 9%]
+2019 年首届北京邮电大学优秀博士生后备计划一等奖学金 (BUPT Excellent Ph.D. Students Reserve Scholarship) [32/342 ≈ 9%] 
 
 Patents
 ====
