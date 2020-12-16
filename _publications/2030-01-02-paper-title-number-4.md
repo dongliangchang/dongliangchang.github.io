@@ -1,12 +1,12 @@
 ---
-title: "[4] Your "Labrador" is My "Dog": Fine-Grained, or Not"
+title: "[4] Your 'Labrador' is My 'Dog': Fine-Grained, or Not"
 collection: publications
-permalink: /publication/2030-01-01-paper-title-number-4
+permalink: /publication/2030-01-02-paper-title-number-4
 excerpt: ''
-date: 2030-01-01	
-venue: 'January 01'
+date: 2030-01-02	
+venue: 'January 02'
 paperurl: ''
-citation: '<b><u><i>Dongliang Chang</i></u></b>, Kaiyue Pang, Yixiao Zheng, Zhanyu Ma\*, Yi-Zhe Song, Jun Guo. Your "Labrador" is My "Dog": Fine-Grained, or Not[J]. arXiv preprint arXiv:2011.09040, 2020.'
+citation: '<b><u><i>Dongliang Chang</i></u></b>, Kaiyue Pang, Yixiao Zheng, Zhanyu Ma\*, Yi-Zhe Song, Jun Guo. Your 'Labrador' is My 'Dog': Fine-Grained, or Not[J]. arXiv preprint arXiv:2011.09040, 2020.'
 ---
 <center><img src="https://www.dongliangchang.cn/files/labrador.jpg" class="img-responsive img-rounded" alt="labrador" width="800"></center>
 
