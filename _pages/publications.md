@@ -14,7 +14,7 @@ You can also find my articles on [my Google Scholar profile.](https://scholar.go
 
 {% include base_path %}
 
-Selected Journal Articles
+Selected Articles
 ====
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
@@ -22,16 +22,16 @@ Selected Journal Articles
 
 
 
-Selected Conference Proceedings
+<!-- Selected Conference Proceedings
 ====
 {% for post in site.publications_Conference reversed %}
   {% include archive-single.html %}
 {% endfor %}
-
-Preprints
+ -->
+<!-- Preprints
 ====
 
-[Find more arxiv papers here.](https://arxiv.org/a/chang_d_1.html/)
+[Find more arxiv papers here.](https://arxiv.org/a/chang_d_1.html/) -->
 
 <i>\* denotes corresponding author.</i>
 
