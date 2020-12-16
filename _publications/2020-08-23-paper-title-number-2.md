@@ -1,5 +1,5 @@
 ---
-title: "[2] Fine-Grained Visual Classification via Progressive Multi-Granularity Training of Jigsaw Patches, S"
+title: "[2] Fine-Grained Visual Classification via Progressive Multi-Granularity Training of Jigsaw Patches"
 collection: publications
 permalink: /publication/2020-08-23-paper-title-number-2
 excerpt: ''
