@@ -14,7 +14,7 @@ You can also find my articles on [my Google Scholar profile.](https://scholar.go
 
 {% include base_path %}
 
-Selected Articles
+Selected Publications
 ====
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
