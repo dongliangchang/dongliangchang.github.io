@@ -23,4 +23,4 @@ News
 ------
 + January, 2021, One paper accepted by [IEEE Transactions on Image Processing!](https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing)
 
-[More News](https://www.dongliangchang.cn/news/a)
+[More News](https://www.dongliangchang.cn/news/)
