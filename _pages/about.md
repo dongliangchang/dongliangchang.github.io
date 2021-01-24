@@ -19,7 +19,7 @@ I am advised by [Prof. Zhanyu Ma](http://www.pris.net.cn/introduction/teacher/zh
 [Prof. Yi-Zhe Song](http://personal.ee.surrey.ac.uk/Personal/Y.Song/). <br>
 <b>Keywords</b>: Computer Vision, Fine-Grained, Deep Learning
 
-News 
+Latest News 
 ------
 + January, 2021, One paper accepted by [IEEE Transactions on Image Processing!](https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing)
 
