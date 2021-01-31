@@ -1,7 +1,7 @@
 ---
-title: "[3] Mind the Gap: Enlarging the Domain Gap in Open Set Domain Adaptation"
+title: "[4] Mind the Gap: Enlarging the Domain Gap in Open Set Domain Adaptation"
 collection: publications
-permalink: /publication/2030-01-01-paper-title-number-3
+permalink: /publication/2030-01-01-paper-title-number-4
 excerpt: ''
 date: 2030-01-01	
 venue: 'January 01'

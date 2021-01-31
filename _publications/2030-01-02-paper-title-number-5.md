@@ -1,7 +1,7 @@
 ---
-title: "[4] Your Labrador is My Dog: Fine-Grained, or Not"
+title: "[5] Your Labrador is My Dog: Fine-Grained, or Not"
 collection: publications
-permalink: /publication/2030-01-02-paper-title-number-4
+permalink: /publication/2030-01-02-paper-title-number-5
 excerpt: ''
 date: 2030-01-02	
 venue: 'January 02'
