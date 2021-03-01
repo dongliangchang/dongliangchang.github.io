@@ -3,8 +3,8 @@ title: "[5] Mind the Gap: Enlarging the Domain Gap in Open Set Domain Adaptation
 collection: publications
 permalink: /publication/2030-01-01-paper-title-number-5
 excerpt: ''
-date: 2030-01-01	
-venue: 'January 01'
+date: 2020-03-10	
+venue: 'Mar 10'
 paperurl: ''
 citation: '<b><u><i>Dongliang Chang</i></u></b>, Aneeshan Sain, Zhanyu Ma\*, Yi-Zhe Song, Jun Guo. Mind the Gap: Enlarging the Domain Gap in Open Set Domain Adaptation[J]. arXiv preprint arXiv:2003.03787, 2020.'
 ---
