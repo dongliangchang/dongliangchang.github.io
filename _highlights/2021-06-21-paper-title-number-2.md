@@ -1,12 +1,12 @@
 ---
-title: "[5] Your Labrador is My Dog: Fine-Grained, or Not"
+title: "[2] Your Labrador is My Dog: Fine-Grained, or Not"
 collection: publications
-permalink: /publication/2030-01-02-paper-title-number-5
+permalink: /publication/2021-06-21-paper-title-number-2
 excerpt: ''
-date: 2030-01-02	
-venue: 'January 02'
+date: 2021-06-21	
+venue: 'Jun 02'
 paperurl: ''
-citation: '<b><u><i>Dongliang Chang</i></u></b>, Kaiyue Pang, Yixiao Zheng, Zhanyu Ma\*, Yi-Zhe Song, Jun Guo. Your Labrador is My Dog: Fine-Grained, or Not[J]. arXiv preprint arXiv:2011.09040, 2020.'
+citation: '<b><u><i>Dongliang Chang</i></u></b>, Kaiyue Pang, Yixiao Zheng, Zhanyu Ma\*, Yi-Zhe Song, Jun Guo. Your Labrador is My Dog: Fine-Grained, or Not[C]. Computer Vision and Pattern Recognition (CVPR), 2021.'
 ---
 <center><img src="https://www.dongliangchang.cn/files/labrador.jpg" class="img-responsive img-rounded" alt="labrador" width="800"></center>
 <br/>
