@@ -1,5 +1,5 @@
 ---
-title: "[2] OSLNet: Deep Small-Sample Classification with an Orthogonal Softmax Layer"
+title: "[3] OSLNet: Deep Small-Sample Classification with an Orthogonal Softmax Layer"
 collection: publications
 permalink: /publication/2020-05-06-paper-title-number-2
 excerpt: ''
