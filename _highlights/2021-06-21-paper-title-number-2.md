@@ -6,7 +6,7 @@ excerpt: ''
 date: 2021-06-21	
 venue: 'Jun 02'
 paperurl: ''
-citation: '<b><u><i>Dongliang Chang</i></u></b>, Kaiyue Pang, Yixiao Zheng, Zhanyu Ma\*, Yi-Zhe Song, Jun Guo. Your Labrador is My Dog: Fine-Grained, or Not[C]. Computer Vision and Pattern Recognition (CVPR), 2021.'
+citation: '<b><u><i>Dongliang Chang</i></u></b>, Kaiyue Pang, Yixiao Zheng, Zhanyu Ma\*, Yi-Zhe Song, Jun Guo. Your Labrador is My Dog: Fine-Grained, or Not[C]. <b><u><i>Computer Vision and Pattern Recognition (CVPR)</i></u></b>, 2021.'
 ---
 <center><img src="https://www.dongliangchang.cn/files/labrador.jpg" class="img-responsive img-rounded" alt="labrador" width="800"></center>
 <br/>

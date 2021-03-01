@@ -6,7 +6,7 @@ excerpt: ''
 date: 2020-08-23	
 venue: 'August 23'
 paperurl: ''
-citation: 'Ruoyi Du, <b><u><i>Dongliang Chang</i></u></b>, Ayan Kumar Bhunia, Jiyang Xie, Yi-Zhe Song, Zhanyu Ma\*, Jun Guo. Fine-Grained Visual Classification via Progressive Multi-Granularity Training of Jigsaw Patches[C]. European Conference on Computer Vision (ECCV), 2020.'
+citation: 'Ruoyi Du, <b><u><i>Dongliang Chang</i></u></b>, Ayan Kumar Bhunia, Jiyang Xie, Yi-Zhe Song, Zhanyu Ma\*, Jun Guo. Fine-Grained Visual Classification via Progressive Multi-Granularity Training of Jigsaw Patches[C]. <b><u><i>European Conference on Computer Vision (ECCV)</i></u></b>, 2020.'
 ---
 <center><img src="https://www.dongliangchang.cn/files/PMG.jpg" class="img-responsive img-rounded" alt="PMG" width="800"></center>
 <br/>
