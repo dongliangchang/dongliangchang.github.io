@@ -1,0 +1,1295 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta name="renderer" content="webkit">
+        <title> TEMI: Human-Like Evaluation without Humans Leaderboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Yaoyao Liu" /> 
+        <meta name="description" content="Few-Shot Classification Leaderboard for miniImageNet, tieredImageNet, FC100, and CIFAR-FS.">
+        <meta name="keywords" content="few-shot learning"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content=" ">
+<title>CIFAR-FS | </title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="few-shot-classification-leaderboard" href="https://fewshot.org/feed.xml">
+
+    <!-- Include the standard DataTables bits -->
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+    <!-- First, this walks through the tables that occur between ...-begin
+         and ...-end and add the "datatable" class to them.
+         Then it invokes DataTable's standard initializer
+         Credit here: http://www.beardedhacker.com/blog/2015/08/28/add-class-attribute-to-markdown-table/
+      -->
+    <script>
+      $(document).ready(function(){
+          $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
+          $('table.display').DataTable( {
+              paging: false,
+              stateSave: true,
+              searching: true
+          });
+       });
+    </script>
+
+
+<style>
+    #main {
+        margin-top: 50px;
+        /*border: 1px solid black;*/
+        cursor: pointer;
+    }
+
+    #qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+    #DFL_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #DFL_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+    #Bubble_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #Bubble_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+    #Drawing_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #Drawing_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+
+    #Beginner_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #Beginner_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+    #DFL_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #DFL_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+
+    #NTS_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #NTS_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+    #PC_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #PC_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+
+    #DCL_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #DCL_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+
+    #CrossX_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #CrossX_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+    #CAL_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #CAL_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+
+    #PMG_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #PMG_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+
+    #DeiT_B_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #DeiT_B_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+    #Lime_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #Lime_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+    #IEBB_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #IEBB_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+
+    #IntegratedGrad_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #IntegratedGrad_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+
+    #SmoothGrad_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #SmoothGrad_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+
+    #IBA_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #IBA_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+
+    #CVE_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #CVE_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+
+    #INTER_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #INTER_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+    #PathwayGrad_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #PathwayGrad_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+    #Ours_qrcode img {
+        position: absolute;
+        top: 42.5%;
+        left: 20%;
+        width: 60%;
+        height: 15%;
+        display: block;
+    }
+
+    #Ours_qrcode {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 9999;
+        display: none;
+    }
+
+
+
+
+
+</style>
+
+<script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+
+<script>
+    $(function() {
+        $("#NTS").click(function() {
+            $("#qrcode").fadeIn("slow");
+        });
+
+        $("#qrcode").click(function() {
+            $("#qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+<script>
+    $(function() {
+        $("#DFL").click(function() {
+            $("#DFL_qrcode").fadeIn("slow");
+        });
+
+        $("#DFL_qrcode").click(function() {
+            $("#DFL_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+
+<script>
+    $(function() {
+        $("#Bubble").click(function() {
+            $("#Bubble_qrcode").fadeIn("slow");
+        });
+
+        $("#Bubble_qrcode").click(function() {
+            $("#Bubble_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+
+<script>
+    $(function() {
+        $("#Drawing").click(function() {
+            $("#Drawing_qrcode").fadeIn("slow");
+        });
+
+        $("#Drawing_qrcode").click(function() {
+            $("#Drawing_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+<script>
+    $(function() {
+        $("#Beginner").click(function() {
+            $("#Beginner_qrcode").fadeIn("slow");
+        });
+
+        $("#Beginner_qrcode").click(function() {
+            $("#Beginner_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+
+
+<script>
+    $(function() {
+        $("#DFL").click(function() {
+            $("#DFL_qrcode").fadeIn("slow");
+        });
+
+        $("#DFL_qrcode").click(function() {
+            $("#DFL_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+
+<script>
+    $(function() {
+        $("#NTS").click(function() {
+            $("#NTS_qrcode").fadeIn("slow");
+        });
+
+        $("#NTS_qrcode").click(function() {
+            $("#NTS_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+
+<script>
+    $(function() {
+        $("#PC").click(function() {
+            $("#PC_qrcode").fadeIn("slow");
+        });
+
+        $("#PC_qrcode").click(function() {
+            $("#PC_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+
+<script>
+    $(function() {
+        $("#DCL").click(function() {
+            $("#DCL_qrcode").fadeIn("slow");
+        });
+
+        $("#DCL_qrcode").click(function() {
+            $("#DCL_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+
+<script>
+    $(function() {
+        $("#CrossX").click(function() {
+            $("#CrossX_qrcode").fadeIn("slow");
+        });
+
+        $("#CrossX_qrcode").click(function() {
+            $("#CrossX_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+
+<script>
+    $(function() {
+        $("#CAL").click(function() {
+            $("#CAL_qrcode").fadeIn("slow");
+        });
+
+        $("#CAL_qrcode").click(function() {
+            $("#CAL_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+
+<script>
+    $(function() {
+        $("#PMG").click(function() {
+            $("#PMG_qrcode").fadeIn("slow");
+        });
+
+        $("#PMG_qrcode").click(function() {
+            $("#PMG_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+
+<script>
+    $(function() {
+        $("#DeiT_B").click(function() {
+            $("#DeiT_B_qrcode").fadeIn("slow");
+        });
+
+        $("#DeiT_B_qrcode").click(function() {
+            $("#DeiT_B_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+
+<script>
+    $(function() {
+        $("#Lime").click(function() {
+            $("#Lime_qrcode").fadeIn("slow");
+        });
+
+        $("#Lime_qrcode").click(function() {
+            $("#Lime_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+
+<script>
+    $(function() {
+        $("#IEBB").click(function() {
+            $("#IEBB_qrcode").fadeIn("slow");
+        });
+
+        $("#IEBB_qrcode").click(function() {
+            $("#IEBB_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+
+<script>
+    $(function() {
+        $("#IntegratedGrad").click(function() {
+            $("#IntegratedGrad_qrcode").fadeIn("slow");
+        });
+
+        $("#IntegratedGrad_qrcode").click(function() {
+            $("#IntegratedGrad_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+
+
+<script>
+    $(function() {
+        $("#SmoothGrad").click(function() {
+            $("#SmoothGrad_qrcode").fadeIn("slow");
+        });
+
+        $("#SmoothGrad_qrcode").click(function() {
+            $("#SmoothGrad_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+
+<script>
+    $(function() {
+        $("#IBA").click(function() {
+            $("#IBA_qrcode").fadeIn("slow");
+        });
+
+        $("#IBA_qrcode").click(function() {
+            $("#IBA_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+
+<script>
+    $(function() {
+        $("#CVE").click(function() {
+            $("#CVE_qrcode").fadeIn("slow");
+        });
+
+        $("#CVE_qrcode").click(function() {
+            $("#CVE_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+
+<script>
+    $(function() {
+        $("#INTER").click(function() {
+            $("#INTER_qrcode").fadeIn("slow");
+        });
+
+        $("#INTER_qrcode").click(function() {
+            $("#INTER_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+<script>
+    $(function() {
+        $("#PathwayGrad").click(function() {
+            $("#PathwayGrad_qrcode").fadeIn("slow");
+        });
+
+        $("#PathwayGrad_qrcode").click(function() {
+            $("#PathwayGrad_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+
+
+<script>
+    $(function() {
+        $("#Ours").click(function() {
+            $("#Ours_qrcode").fadeIn("slow");
+        });
+
+        $("#Ours_qrcode").click(function() {
+            $("#Ours_qrcode").fadeOut("slow");
+        })
+
+    });
+</script>
+
+</head>
+<body>
+
+
+<!-- Page Content -->
+<div class="container">
+
+<h1 id="imagenet-classification-leaderboard"> TEMI: Human-Like Evaluation without Humans Leaderboard</a></h1>
+      <h4 align="left"><a href="https://arxiv.org/pdf/2112.02747.pdf">paper</a>  <a href="https://github.com/PRIS-CV/Making-a-Bird-AI-Expert-Work-for-You-and-Me">code</a></h4>
+
+      
+<br>
+<p>To counter the notorious lack of reproducibility of perceptual studies, and in turn to make a sustainable direction out of our “AI for Human” effort, we propose a quantitative metric, namely Transferable Effective Model Attention (TEMI). TEMI acts as a crude but benchmarkable metric to replace large-scale human studies,
+and therefore allows future efforts in this direction to be comparable to ours. We attest the integrity of TEMI by (i) empirically showing a
+strong correlation between TEMI scores and raw human study data, and (ii) its expected behaviour holds for a large body of attention
+models.</p></ul>
+
+        
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+
+        <!-- Content Column -->
+        <div class="" id="tg-sb-content">
+            <div class="datatable-begin"></div>
+            <h2 id="cifar-fs-leaderboard-5-class">CUB-200-2011 Leaderboard</h2>
+
+<h4 id="edit-this-leaderboard"><a href="mailto:changdongliang@bupt.edu.cn">Update this leaderboard</a></h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Venue</th>
+      <th>Year</th>
+      <th>Improvability</th>
+      <th>Specificity</th>
+      <th>TEMI</th>
+      <th>Code</th>
+      <th>Visualization</th>
+<!--       <th>Reported by</th> -->
+    </tr>
+  </thead>
+  <tbody>
+<!--     <tr>
+      <td><a href="https://ieeexplore.ieee.org/iel7/34/7425337/07115172.pdf">Bubble</a></td>
+      <td>TPAMI</td>
+      <td>2015</td>
+      <td>50.83</td>
+      <td>36.38</td>
+      <td>42.41</td>
+      <td><a href="https://">[Dataset]</a></td>
+      <td>
+        <a id="Bubble">[Visualization]</a>
+        
+        <div id="Bubble_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/Bubble.png">
+        </div>
+      </td>
+    </tr> -->
+<!--     <tr>
+      <td><a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Progressive_Adversarial_Networks_for_Fine-Grained_Domain_Adaptation_CVPR_2020_paper.pdf">Drawing</a></td>
+      <td>CVPR</td>
+      <td>2020</td>
+      <td>57.64</td>
+      <td>35.55</td>
+      <td>43.97</td>
+      <td><a href="https://">[Dataset]</a></td>
+      <td>
+        <a id="Drawing">[Visualization]</a>
+        
+        <div id="Drawing_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/Bubble.png">
+        </div>
+      </td>
+    </tr> -->
+
+<!--     <tr>
+      <td><a href="http://openaccess.thecvf.com/content/CVPR2021/papers/Chang_Your_Flamingo_is_My_Bird_Fine-Grained_or_Not_CVPR_2021_paper.pdf">Beginner</a></td>
+      <td>CVPR</td>
+      <td>2021</td>
+      <td>62.05</td>
+      <td>36.40</td>
+      <td>45.88</td>
+      <td><a href="https://">[Dataset]</a></td>
+      <td>
+        <a id="Beginner">[Visualization]</a>
+        
+        <div id="Beginner_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/Bubble.png">
+        </div>
+      </td>
+    </tr> -->
+
+    <tr>
+      <td><a href="https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Learning_a_Discriminative_CVPR_2018_paper.pdf">DFL [1]</a></td>
+      <td>CVPR</td>
+      <td>2018</td>
+      <td>59.53</td>
+      <td>38.63</td>
+      <td>46.83</td>
+      <td><a href="https://github.com/songdejia/DFL-CNN">[Pytorch]</a></td>
+      <td>
+        <a id="DFL">[Visualization]</a>
+        
+        <div id="DFL_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/DFL.png">
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><a href="https://openaccess.thecvf.com/content_ECCV_2018/papers/Ze_Yang_Learning_to_Navigate_ECCV_2018_paper.pdf">NTS [2]</a></td>
+      <td>ECCV</td>
+      <td>2018</td>
+      <td>67.16</td>
+      <td>28.11</td>
+      <td>39.63</td>
+      <td><a href="https://github.com/yangze0930/NTS-Net">[Pytorch]</a></td>
+      <td>
+        <a id="NTS">[Visualization]</a>
+        
+        <div id="qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/NTS.png">
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><a href="https://openaccess.thecvf.com/content_ECCV_2018/papers/Abhimanyu_Dubey_Improving_Fine-Grained_Visual_ECCV_2018_paper.pdf">PC [3]</a></td>
+      <td>ECCV</td>
+      <td>2018</td>
+      <td>68.80</td>
+      <td>29.63</td>
+      <td>41.40</td>
+      <td><a href="https://github.com/abhimanyudubey/confusion">[Pytorch]</a></td>
+      <td>
+        <a id="PC">[Visualization]</a>
+        
+        <div id="PC_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/PC.png">
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Destruction_and_Construction_Learning_for_Fine-Grained_Image_Recognition_CVPR_2019_paper.pdf">DCL [4]</a></td>
+      <td>CVPR</td>
+      <td>2019</td>
+      <td>64.77</td>
+      <td>36.14</td>
+      <td>46.39</td>
+      <td><a href="https://github.com/JDAI-CV/DCL">[Pytorch]</a></td>
+      <td>
+        <a id="DCL">[Visualization]</a>
+        
+        <div id="DCL_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/DCL.png">
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Luo_Cross-X_Learning_for_Fine-Grained_Visual_Categorization_ICCV_2019_paper.pdf">CrossX [5]</a></td>
+      <td>ICCV</td>
+      <td>2019</td>
+      <td>61.14</td>
+      <td>28.04</td>
+      <td>38.44</td>
+      <td><a href="https://github.com/cswluo/CrossX">[Pytorch]</a></td>
+      <td>
+        <a id="CrossX">[Visualization]</a>
+        
+        <div id="CrossX_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/CrossX.png">
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Rao_Counterfactual_Attention_Learning_for_Fine-Grained_Visual_Categorization_and_Re-Identification_ICCV_2021_paper.pdf">CAL [6]</a></td>
+      <td>ICCV</td>
+      <td>2021</td>
+      <td>67.11</td>
+      <td>29.77</td>
+      <td>41.24</td>
+      <td><a href="https://github.com/raoyongming/CAL">[Pytorch]</a></td>
+      <td>
+        <a id="CAL">[Visualization]</a>
+        
+        <div id="CAL_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/CAL.png">
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><a href="https://ieeexplore.ieee.org/iel7/34/4359286/09609669.pdf">PMG [7]</a></td>
+      <td>TPAMI</td>
+      <td>2021</td>
+      <td>67.85</td>
+      <td>29.28</td>
+      <td>40.90</td>
+      <td><a href="https://github.com/PRIS-CV/PMG-V2">[Pytorch]</a></td>
+      <td>
+        <a id="PMG">[Visualization]</a>
+        
+        <div id="PMG_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/PMG.png">
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><a href="http://proceedings.mlr.press/v139/touvron21a/touvron21a.pdf">DeiT-B [8]</a></td>
+      <td>ICML</td>
+      <td>2021</td>
+      <td>59.40</td>
+      <td>37.74</td>
+      <td>46.16</td>
+      <td><a href="https://github.com/facebookresearch/deit">[Pytorch]</a></td>
+      <td>
+        <a id="DeiT_B">[Visualization]</a>
+        
+        <div id="DeiT_B_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/DeiT_B.png">
+        </div>
+      </td>
+    </tr>
+
+
+    <tr>
+      <td><a href="https://dl.acm.org/doi/abs/10.1145/2939672.2939778">Lime [9]</a></td>
+      <td>SIGKDD</td>
+      <td>2016</td>
+      <td>65.81</td>
+      <td>33.05</td>
+      <td>44.00</td>
+      <td><a href="https://github.com/blazecolby/PyTorch-LIME">[Pytorch]</a></td>
+      <td>
+        <a id="Lime">[Visualization]</a>
+        
+        <div id="Lime_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/LIME.png">
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><a href="https://openaccess.thecvf.com/content_ICCV_2017/papers/Fong_Interpretable_Explanations_of_ICCV_2017_paper.pdf">IEBB [10]</a></td>
+      <td>ICCV</td>
+      <td>2017</td>
+      <td>65.77</td>
+      <td>36.28</td>
+      <td>46.76</td>
+      <td><a href="https://github.com/jacobgil/pytorch-explain-black-box">[Pytorch]</a></td>
+      <td>
+        <a id="IEBB">[Visualization]</a>
+        
+        <div id="IEBB_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/IEBB.png">
+        </div>
+      </td>
+    </tr>
+
+
+    <tr>
+      <td><a href="http://proceedings.mlr.press/v70/sundararajan17a/sundararajan17a.pdf">IntegratedGrad [11]</a></td>
+      <td>ICML</td>
+      <td>2017</td>
+      <td>51.38</td>
+      <td>37.62</td>
+      <td>43.44</td>
+      <td><a href="https://github.com/TianhongDai/integrated-gradient-pytorch">[Pytorch]</a></td>
+      <td>
+        <a id="IntegratedGrad">[Visualization]</a>
+        
+        <div id="IntegratedGrad_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/IntegratedGrad.png">
+        </div>
+      </td>
+    </tr>
+
+
+    <tr>
+      <td><a href="https://arxiv.org/abs/1706.03825">SmoothGrad [12]</a></td>
+      <td>arXiv</td>
+      <td>2017</td>
+      <td>47.44</td>
+      <td>39.77</td>
+      <td>43.27</td>
+      <td><a href="https://github.com/pikahhh/pytorch-smoothgrad">[Pytorch]</a></td>
+      <td>
+        <a id="SmoothGrad">[Visualization]</a>
+        
+        <div id="SmoothGrad_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/SmoothGrad.png">
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><a href="https://arxiv.org/pdf/2001.00396">IBA [13]</a></td>
+      <td>ICLR</td>
+      <td>2019</td>
+      <td>60.79</td>
+      <td>31.13</td>
+      <td>41.17</td>
+      <td><a href="https://github.com/BioroboticsLab/IBA">[Pytorch]</a></td>
+      <td>
+        <a id="IBA">[Visualization]</a>
+        
+        <div id="IBA_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/IBA.png">
+        </div>
+      </td>
+    </tr>
+
+
+    <tr>
+      <td><a href="http://proceedings.mlr.press/v97/goyal19a/goyal19a.pdf">CVE [14]</a></td>
+      <td>ICML</td>
+      <td>2019</td>
+      <td>65.29</td>
+      <td>38.09</td>
+      <td>48.12</td>
+      <td><a href="https://github.com/DavidCarlyn/CounterfactualVisualExplanations">[Pytorch]</a></td>
+      <td>
+        <a id="CVE">[Visualization]</a>
+        
+        <div id="CVE_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/CVE.png">
+        </div>
+      </td>
+    </tr>
+
+
+    <tr>
+      <td><a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_Interpretable_and_Accurate_Fine-grained_Recognition_via_Region_Grouping_CVPR_2020_paper.pdf">INTER [15]</a></td>
+      <td>CVPR</td>
+      <td>2020</td>
+      <td>60.79</td>
+      <td>40.04</td>
+      <td>48.30</td>
+      <td><a href="https://github.com/zxhuang1698/interpretability-by-parts">[Pytorch]</a></td>
+      <td>
+        <a id="INTER">[Visualization]</a>
+        
+        <div id="INTER_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/INTER.png">
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><a href="http://openaccess.thecvf.com/content/CVPR2021/papers/Khakzar_Neural_Response_Interpretation_Through_the_Lens_of_Critical_Pathways_CVPR_2021_paper.pdf">PathwayGrad [16]</a></td>
+      <td>CVPR</td>
+      <td>2021</td>
+      <td>57.45</td>
+      <td>30.25</td>
+      <td>39.64</td>
+      <td><a href="https://github.com/CAMP-eXplain-AI/PathwayGrad">[Pytorch]</a></td>
+      <td>
+        <a id="PathwayGrad">[Visualization]</a>
+        
+        <div id="PathwayGrad_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/PathwayGrad.png">
+        </div>
+      </td>
+    </tr>
+
+
+
+    <tr>
+      <td><a href="https://arxiv.org/pdf/2112.02747.pdf">Ours [17]</a></td>
+      <td>arXiv</td>
+      <td>2021</td>
+      <td>70.52</td>
+      <td>71.54</td>
+      <td>71.03</td>
+      <td><a href="https://github.com/PRIS-CV/Making-a-Bird-AI-Expert-Work-for-You-and-Me">[Pytorch]</a></td>
+      <td>
+        <a id="Ours">[Visualization]</a>
+        
+        <div id="Ours_qrcode">
+            <img id="image" width="100%" height="100%" src="./visulization/Ours.png">
+        </div>
+      </td>
+    </tr>
+
+
+  </tbody>
+</table>
+
+        
+
+        <div class="datatable-end"></div>
+        </div>
+    <!-- /.row -->
+</div>
+
+
+<h3 id="Reference">Reference</h3>
+<p>[1] Wang, Yaming, et al. Davis. "Learning a discriminative filter bank within a cnn for fine-grained recognition." In CVPR. 2018.</p>
+<p>[2] Yang, Ze, et al. "Learning to navigate for fine-grained classification." In ECCV. 2018.</p>
+<p>[3] Dubey, Abhimanyu, et al. "Pairwise confusion for fine-grained visual classification." In ECCV. 2018.</p>
+<p>[4] Chen, Yue, et al. "Destruction and construction learning for fine-grained image recognition." In CVPR. 2019.</p>
+<p>[5] Luo, Wei, et al. "Cross-x learning for fine-grained visual categorization." In CVPR. 2019.</p>
+<p>[6] Rao, Yongming, et al. "Counterfactual attention learning for fine-grained visual categorization and re-identification." In CVPR. 2021.</p>
+<p>[7] Du, Ruoyi, et al. "Progressive learning of category-consistent multi-granularity features for fine-grained visual classification." IEEE Transactions on Pattern Analysis and Machine Intelligence (2021).</p>
+<p>[8] Touvron, Hugo, et al. "Training data-efficient image transformers & distillation through attention." In ICML. 2021.</p>
+<p>[9] Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin. "" Why should i trust you?" Explaining the predictions of any classifier." In SIGKDD. 2016.</p>
+<p>[10] Fong, Ruth C., and Andrea Vedaldi. "Interpretable explanations of black boxes by meaningful perturbation." In ICCV. 2017.</p>
+<p>[11] Sundararajan, Mukund, Ankur Taly, and Qiqi Yan. "Axiomatic attribution for deep networks." In ICML. 2017.</p>
+<p>[12] Smilkov, Daniel, et al. "Smoothgrad: removing noise by adding noise." arXiv preprint arXiv:1706.03825 (2017).</p>
+<p>[13] Schulz, Karl, et al. "Restricting the Flow: Information Bottlenecks for Attribution." In ICLR. 2019.</p>
+<p>[14] Goyal, Yash, et al. "Counterfactual visual explanations." In ICML. 2019.</p>
+<p>[15] Huang, Zixuan, and Yin Li. "Interpretable and accurate fine-grained recognition via region grouping." In CVPR. 2020.</p>
+<p>[16] Khakzar, Ashkan, et al. "Neural response interpretation through the lens of critical pathways." In CVPR. 2021.</p>
+<p>[17] Chang, Dongliang, et al. "Making a Bird AI Expert Work for You and Me." arXiv preprint arXiv:2112.02747 (2021).</p>
+
+
+<h3 id="author">Contact</h3>
+<p>changdongliang@bupt.edu.cn</p>
+
+      
+      <!--
+      <p hidden><script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=qu1vb66Q9_SO4q2LP5izrZHNn2wQ699GpO_a9LlEey8&cl=ffffff&w=a"></script></p>
+        -->
+
+
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+
+</html>
+
